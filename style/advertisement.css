@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter Tight", sans-serif;
+}
+
+/*advertisement section start*/
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.adv-advertisement {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #fbfbfb;
+}
+
+.adv-container {
+  min-width: 375px;
+  min-height: 472px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 80px 20px;
+  align-items: center;
+}
+
+.adv-advert-box {
+  width: 100%;
+  margin: auto;
+  text-align: left;
+}
+
+.adv-discount-text {
+  margin: auto;
+  width: 335px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.adv-discount-span {
+  display: inline-block;
+  /* padding-left: 20px; */
+  padding-right: 15px;
+  padding-top: 20px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: -0.015em;
+  color: #fbfbfb;
+  background: #576f35;
+  background-size: 102px;
+  text-transform: uppercase;
+  border-radius: 12px;
+}
+
+@media (min-width: 768px) {
+
+  .adv-advertisement {
+     padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .adv-advert-box {
+    width: 736px;
+  }
+
+  .adv-discount-text {
+    font-size: 64px;
+    line-height: 80px;
+    width: 704px;
+  }
+
+  .adv-discount-span {
+    font-size: 64px;
+    line-height: 80px;
+    width: 736px;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .adv-advertisement {
+    padding-top: 100px;
+   padding-bottom: 100px;
+ }
+
+  .adv-advert-box {
+    width: 1080px;
+  }
+
+  .adv-discount-text {
+    font-size: 76px;
+    line-height: 1.05;
+    width: 1060px;
+  }
+
+  .adv-discount-span {
+    font-size: 76px;
+    line-height: 1.05;
+    width: 808px;
+    margin-right: 10px;
+  }
+}
+/*advertisement section end*/
