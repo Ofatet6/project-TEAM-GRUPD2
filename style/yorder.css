@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter Tight", serif;
+  font-family: "Inter Tight", serif;  
 }
 .you-order {
   background-color: #576f35;
@@ -378,7 +378,12 @@
 }
 @media screen and (min-width: 1280px) {
   .you-order {
-    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
   }
   .you-order-title-box {
     display: block;
@@ -386,6 +391,8 @@
     height: 192px;
     margin: 0;
     padding: 0;
+    transform: translate(-160px);
+    
   }
   .you-order-title {
     width: 751px;
