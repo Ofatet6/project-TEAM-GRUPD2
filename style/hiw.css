@@ -24,7 +24,7 @@
 }
 
 .hiw-left-container{
-    background-image:url('/images/womcut-mob-1x-min.jpg');
+    background-image: url('../img/womcut-mob-1x.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -35,15 +35,16 @@
 
 @media screen and (min-resolution: 192dpi) {
   .hiw-left-container {
-    background-image: 
-      url('/images/womcut-mob-2x-min.jpg');
+    background-image:  url('../img/womcut-mob-2x.jpg')
+     ;
   }
 }
 
 @media screen and (min-resolution: 288dpi) {
   .hiw-left-container {
+    
     background-image: 
-      url('/images/womcut-mob-3x-min.jpg');
+      url('../img/womcut-mob-3x.jpg'),
   }
 }
 
@@ -232,7 +233,7 @@
     }
 
     .hiw-left-container{
-        background-image: url('/images/womcut-tab-1x-min.jpg');
+        background-image: url('../img/womcut-tab-1x.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -244,14 +245,15 @@
         @media screen and (min-resolution: 192dpi) {
     .hiw-left-container {
         background-image: 
-        url('/images/womcut-tab-2x-min.jpg');
+        
+        url('../img/womcut-tab-2x.jpg');
     }
     }
 
     @media screen and (min-resolution: 288dpi) {
     .hiw-left-container {
         background-image: 
-        url('/images/womcut-tab-3x-min.jpg');
+        url('../img/womcut-tab-3x.jpg');
     }
     }
 
@@ -314,7 +316,7 @@
     }
 
    .hiw-left-container{
-        background-image: url('/images/womcut-desc-1x-min.jpg');
+        background-image: url('../img/womcut-desc-1x.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -325,15 +327,16 @@
 
         @media screen and (min-resolution: 192dpi) {
     .hiw-left-container {
-        background-image: 
-        url('/images/womcut-desc-2x-min.jpg');
+        background-image:
+        url('../img/womcut-desc-2x.jpg')
+        ;
     }
     }
 
     @media screen and (min-resolution: 288dpi) {
     .hiw-left-container {
-        background-image: 
-        url('/images/womcut-desc-3x-min.jpg');
+        background-image: url('../img/womcut-desc-3x.jpg')
+        ;
     }
     }
 
