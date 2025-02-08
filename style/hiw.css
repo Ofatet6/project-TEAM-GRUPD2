@@ -24,11 +24,7 @@
 }
 
 .hiw-left-container{
-    background-image: linear-gradient(
-      to bottom,
-      rgba(20, 20, 20, 0.2),
-      rgba(20, 20, 20, 0.2)
-    ),url('/images/womcut-mob-1x-min.jpg');
+    background-image:url('/images/womcut-mob-1x-min.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -39,22 +35,14 @@
 
 @media screen and (min-resolution: 192dpi) {
   .hiw-left-container {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(20, 20, 20, 0.2),
-        rgba(20, 20, 20, 0.2)
-      ),
+    background-image: 
       url('/images/womcut-mob-2x-min.jpg');
   }
 }
 
 @media screen and (min-resolution: 288dpi) {
   .hiw-left-container {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(20, 20, 20, 0.2),
-        rgba(20, 20, 20, 0.2)
-      ),
+    background-image: 
       url('/images/womcut-mob-3x-min.jpg');
   }
 }
@@ -244,11 +232,7 @@
     }
 
     .hiw-left-container{
-        background-image: linear-gradient(
-        to bottom,
-        rgba(20, 20, 20, 0.2),
-        rgba(20, 20, 20, 0.2)
-        ),url('/images/womcut-tab-1x-min.jpg');
+        background-image: url('/images/womcut-tab-1x-min.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -259,22 +243,14 @@
 
         @media screen and (min-resolution: 192dpi) {
     .hiw-left-container {
-        background-image: linear-gradient(
-            to bottom,
-            rgba(20, 20, 20, 0.2),
-            rgba(20, 20, 20, 0.2)
-        ),
+        background-image: 
         url('/images/womcut-tab-2x-min.jpg');
     }
     }
 
     @media screen and (min-resolution: 288dpi) {
     .hiw-left-container {
-        background-image: linear-gradient(
-            to bottom,
-            rgba(20, 20, 20, 0.2),
-            rgba(20, 20, 20, 0.2)
-        ),
+        background-image: 
         url('/images/womcut-tab-3x-min.jpg');
     }
     }
@@ -338,11 +314,7 @@
     }
 
    .hiw-left-container{
-        background-image: linear-gradient(
-        to bottom,
-        rgba(20, 20, 20, 0.2),
-        rgba(20, 20, 20, 0.2)
-        ),url('/images/womcut-desc-1x-min.jpg');
+        background-image: url('/images/womcut-desc-1x-min.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -353,22 +325,14 @@
 
         @media screen and (min-resolution: 192dpi) {
     .hiw-left-container {
-        background-image: linear-gradient(
-            to bottom,
-            rgba(20, 20, 20, 0.2),
-            rgba(20, 20, 20, 0.2)
-        ),
+        background-image: 
         url('/images/womcut-desc-2x-min.jpg');
     }
     }
 
     @media screen and (min-resolution: 288dpi) {
     .hiw-left-container {
-        background-image: linear-gradient(
-            to bottom,
-            rgba(20, 20, 20, 0.2),
-            rgba(20, 20, 20, 0.2)
-        ),
+        background-image: 
         url('/images/womcut-desc-3x-min.jpg');
     }
     }
