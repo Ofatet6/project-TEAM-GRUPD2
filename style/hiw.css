@@ -24,7 +24,7 @@
 }
 
 .hiw-left-container{
-    background-image: url('/img/womcut-mob-1x.jpg');
+    background-image: url('../img/womcut-mob-1x.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -35,7 +35,7 @@
 
 @media screen and (min-resolution: 192dpi) {
   .hiw-left-container {
-    background-image:  url('/img/womcut-mob-2x.jpg')
+    background-image:  url('../img/womcut-mob-2x.jpg')
      ;
   }
 }
@@ -44,7 +44,7 @@
   .hiw-left-container {
     
     background-image: 
-      url('/img/womcut-mob-3x.jpg'),
+      url('../img/womcut-mob-3x.jpg'),
   }
 }
 
