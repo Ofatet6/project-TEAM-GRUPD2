@@ -84,7 +84,7 @@
   margin: 0 auto;
 }
 
-@media (min-width: 320px) and (max-width: 375px) {
+@media (min-width: 320px) and (max-width: 374px) {
   .vg-list {
     flex-direction: column;
     gap: 5px;
