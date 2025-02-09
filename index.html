@@ -20,13 +20,12 @@
     <header class="header">
       <div class="header-container">
         <div class="header-left">
-          <svg class="header-icon-left" width="16" height="16">
-            <use href="./img/icon.svg#icon-Vector"></use>
+          <svg class="icon" width="168" height="16">
+            <use href="./images/icons.svg#icon-logo-1-1"></use>
           </svg>
-          <a href="#" class="header-link">GREEN.HARVEST</a>
         </div>
         <div class="header-right">
-          <svg class="header-icon-rigth" width="32" height="32">
+          <svg class="header-icon-rigth" width="32" height="32" onclick="toggleMenu">
             <use href="./img/icon.svg#icon-buton"></use>
           </svg>
         </div>
@@ -35,13 +34,13 @@
             <nav class="header-desk-nav">
               <ul class="header-desk-list">
                 <li class="header-menu-li">
-                  <a href="#" class="header-menu-a">How It Works</a>
+                  <a href="#section-one" class="header-menu-a">How It Works</a>
                 </li>
                 <li class="header-menu-li">
-                  <a href="#" class="header-menu-a">Vegetables</a>
+                  <a href="#vegetables" class="header-menu-a">Vegetables</a>
                 </li>
                 <li class="header-menu-li">
-                  <a href="#" class="header-menu-a">Reviews</a>
+                  <a href="#review" class="header-menu-a">Reviews</a>
                 </li>
               </ul>
             </nav>
@@ -50,7 +49,7 @@
           <button type="button" class="header-menu-button">SHOP NOW</button>
         </div>
       </div>
-      <div class="header-mobil-menu is-open">
+      <div class="header-mobil-menu is-open" id="mobileMenu" onclick="closeMenu()">
         <div class="icon-x">
           <svg class="icon-clos" width="40" height="40">
             <use class="icon-closs" href="./img/icon.svg#icon-close"></use>
@@ -60,13 +59,13 @@
           <nav class="header-menu-nav">
             <ul class="header-menu-list">
               <li class="header-menu-li">
-                <a href="#" class="header-menu-a">How İt Works</a>
+                <a href="#section-one" class="header-menu-a">How It Works</a>
               </li>
               <li class="header-menu-li">
-                <a href="#" class="header-menu-a">Vagetables</a>
+                <a href="#vegetables" class="header-menu-a">Vagetables</a>
               </li>
               <li class="header-menu-li">
-                <a href="#" class="header-menu-a">Reviews</a>
+                <a href="#review" class="header-menu-a">Reviews</a>
               </li>
             </ul>
           </nav>
@@ -90,12 +89,11 @@
       </div>
     </section>
     <!-- How It Works section start-->
-    <section class="hiw-section">
+    <section id="section-one" class="hiw-section">
       <div class="hiw">
         <h2 class="visually-hidden">How It Works</h2>
         <div class="hiw-left">
-          <div class="hiw-left-container">
-          </div>
+          <div class="hiw-left-container"></div>
         </div>
         <div class="hiw-right">
           <h3 class="hiw-right-h">
@@ -257,7 +255,7 @@
       </div>
     </section>
     <!-- vegetables bölümü -->
-    <section class="rew">
+    <section class="rew" id="review">
       <div class="rew-container">
         <!-- ************** Section content information ************** -->
         <div class="rew-secone">
@@ -427,9 +425,8 @@
                     class="you-order-social"
                     href="https://www.instagram.com/goit.turkiye/"
                   >
-                    INSTAGRAM 
+                    INSTAGRAM
                   </a>
-                  
                 </li>
 
                 <li class="you-order-social-li-face">
@@ -501,5 +498,5 @@
         </div>
       </div>
     </footer>
+
   </body>
-</html>

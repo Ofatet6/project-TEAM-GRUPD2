@@ -1,4 +1,3 @@
-
 * {list-style-type: none;}
 
 .header {
@@ -10,7 +9,6 @@
 
 .header-container {
     min-width: 320px ;
-    /* background-color: #576F35; */
     display: flex;
     align-items: center;
 }
@@ -26,7 +24,6 @@
     background-color: #576F35;
 }
 
-
 .header-link {
     color: #fbfbfb;
     width: 148px;
@@ -35,8 +32,7 @@
 }
 .header-right {
     margin-right: 20px;
-}
-
+    }
 
 
 .header-mobil-menu {
@@ -93,15 +89,18 @@
     
 }
 
-.header-menu-li:hover, .header-menu-li:focus {
+.header-menu-li:active {
     background-color: #fbfbfb; 
     
 }
-.header-menu-a:hover, .header-menu-a:focus {
-    background-color: #fbfbfb; 
+.header-menu-a:hover {
+    
     color: #7a3145;
 }
-
+.header-menu-a:hover {
+   
+    color: #7a3145;
+}
 
 .header-menu-button {
     width: 175px;
@@ -129,6 +128,10 @@
     background-color: #576F35;
 }
 
+.header-desktop {
+    display: none;
+}
+
 .is-open {
     display: none;
 }
@@ -138,14 +141,21 @@
         width: 100%; 
 
     }
+    .header-container{
+        margin: auto;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 32px;
+        
+    }
     .mobil-nav {
         display: flex;
               
     }
     .header-mobil-menu {
-        
+        height: 100%;
        float: right;
-        
+        width: 100%;
     }
   
     .header-desktop {
@@ -154,33 +164,37 @@
 .icon-x {
     fill: #fbfbfb;
 }
+.header-menu-button {
+    margin-bottom: 52px;
 }
 
+  
+}
+
+  
 @media (min-width:768px) {
     .header {
         width: 100%;  
-    }
+        }
   .header-icon-rigth {
     display: block;
   }
 
   .header-mobil-menu {
-  display: none;
-}
+   height: 100%;
+  float: right;
+  width: 100%;
+ }
 .header-container{
     margin: auto;
-    width: 704px;
+    width: 100%;
     justify-content: space-between;
     margin-top: 32px;
-    /* gap: 195px;  */
+     
 }
 .header-desktop {
     display: none;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    margin-right: 100px;
-}
+  }
 .header-desk-list {
     display: flex;
     gap: 8px;
@@ -188,7 +202,13 @@
 .header-left {
     width: 216px;
 }
+
+.header-menu-button {
+    margin-bottom: 48px;
 }
+
+  }
+  
 @media (min-width:1280px){
     .header-icon-rigth {
         display: none;
@@ -209,5 +229,10 @@
         gap: 240px; 
         margin-top: 32px;
     }
-    
+    .header-mobil-menu {
+       display: none;
+     }
+     .header-menu-button {
+        margin-bottom:0;
+    }
 }
